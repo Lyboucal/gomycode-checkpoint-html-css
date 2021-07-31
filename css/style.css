@@ -1,0 +1,216 @@
+body {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#surnom {
+    text-align: left;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: green;
+}
+#menu {
+    text-align: right;
+    display: inline;
+    margin-left: 800px;
+}
+#presentation {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+
+}
+#identite {
+    text-align: left;
+    display: inline;
+}
+#nom {
+    display: inline;
+    width: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+#titre {
+    display: inline;
+    width: 150px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: green;
+}
+#img {
+    display: inline-block;
+    margin-left: 800px;
+    position: absolute;
+    top: 2px;
+    border-radius: 50px;
+}
+#img2 {
+    border-radius: 50px;
+}
+#competence , #personnel {
+    background-color:#F8F8F8 ;
+}
+.comp {
+    width: 200px;
+}
+#image {
+    text-align: center;
+}
+#desc-competence {
+    position: relative;
+    height: 400px;
+}
+#aptitude {
+    position: absolute;
+    top: 120px;
+    padding-left: 300px;
+}
+.liste-apt {
+    display: inline-block;
+    text-align: center;
+    padding-top: 180px;
+    width: 250px;
+    margin-left: 10px;
+    border: solid 1px green;
+    border-radius: 10px;
+}
+#comp-exp {
+    position: absolute;
+    margin-left: 300px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: green;
+}
+#experience {
+    position: absolute;
+    top: 50px;
+    font-size: 23px;
+    width: 250px;
+}
+#anne {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color: green;
+}
+#projet {
+    position: relative;
+    height: 850px;
+}
+#projet-title {
+    position: absolute;
+    margin-left: 60px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: green;
+}
+#projet-cont {
+    position: absolute;
+    margin-left: 600px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#projet-detail {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.proj {
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+}
+.perso , .com {
+    display: inline-block;
+    position: relative;
+    height: 400px;
+    width: 1200px;
+    margin-left: 60px;
+}
+#image-perso {
+    display: inline-block;
+    position: absolute;
+}
+#presentation-personnel {
+    display: inline-block;
+    position: absolute;
+    margin-left: 520px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+#image-pers {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+#presentation-perso {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: green;
+}
+.commentaire {
+    display: inline-block;
+    width: 340px;
+    height: 280px;
+    margin-top: 50px;
+    margin-left: 13px;
+    margin-right: 13px;
+    text-align: center;
+    border-radius: 20px;
+    background-color:#FFFFFF ;
+}
+.com-image {
+    display: inline;
+}
+.contenu-com {
+    display: block;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+.poste-com {
+    display: block;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+}
+#contact-gauche {
+    text-align: left;
+    display: block;
+    width: 600px;
+    height: 100px;
+}
+#contact-droit {
+    text-align: left;
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin-left: 800px;
+    margin-top: -120px;
+}
+input {
+    width: 350px;
+    height: 50px;
+}
+textarea {
+    width: 350px;
+    height: 50px;
+}
